@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>TOP VKND</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="logo">TOP VKND</h1>
+
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#products">Товары</a>
+        <a href="#contact">Контакты</a>
+        <a href="https://t.me/shock_mun" target="_blank">Telegram</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Добро пожаловать в TOP VKND</h2>
+    <p>🔥 Все вкусы по 8€ 🔥</p>
+    <a href="#products"><button class="buy-btn big">Смотреть товары</button></a>
+</section>
+
+<section class="top">
+🔥 Лучшие вкусы | Быстрый заказ | Telegram менеджер
+</section>
+
+<section id="products" class="products">
+
+<h2 class="brand">😈 Pablo Exclusive 😈</h2>
+
+<div class="card">
+<p>🍉 Watermelon Lemon ×1</p>
+<a href="https://t.me/shock_mun?text=Добрый%20день%20я%20хочу%20купить%20Pablo%20Watermelon%20Lemon">
+<button class="buy-btn">Купить</button>
+</a>
+</div>
+
+<div class="card">
+<p>🫐 Sour Blueberries ×2</p>
+<a href="https://t.me/shock_mun?text=Добрый%20день%20я%20хочу%20купить%20Pablo%20Sour%20Blueberries">
+<button class="buy-btn">Купить</button>
+</a>
+</div>
+
+<div class="card no-stock">
+<p>🍒 Dark Cherry ❌ Нет в наличии</p>
+</div>
+
+<div class="card">
+<p>🍋 Lemonade ×1</p>
+<a href="https://t.me/shock_mun?text=Добрый%20день%20я%20хочу%20купить%20Pablo%20Lemonade">
+<button class="buy-btn">Купить</button>
+</a>
+</div>
+
+<div class="card no-stock">
+<p>🍌 Banana Ice ❌</p>
+</div>
+
+<div class="card no-stock">
+<p>🍇 Grape Ice ❌</p>
+</div>
+
+<div class="card">
+<p>🌿 Frosted Mint ×1</p>
+<a href="https://t.me/shock_mun?text=Добрый%20день%20я%20хочу%20купить%20Pablo%20Frosted%20Mint">
+<button class="buy-btn">Купить</button>
+</a>
+</div>
+
+<h2 class="brand">😈 ICEBERG 😈</h2>
+
+<div class="card no-stock"><p>🍏 Apple Lemon Pineapple ❌</p></div>
+<div class="card no-stock"><p>⚡ Energy ❌</p></div>
+<div class="card no-stock"><p>🐉 Dragon Fruit ❌</p></div>
+<div class="card no-stock"><p>💚 Emerald ❌</p></div>
+<div class="card no-stock"><p>🍓 Sour Berries ❌</p></div>
+
+<div class="card">
+<p>🍉 Watermelon Lime ×1</p>
+<a href="https://t.me/shock_mun?text=Добрый%20день%20я%20хочу%20купить%20Iceberg%20Watermelon%20Lime">
+<button class="buy-btn">Купить</button>
+</a>
+</div>
+
+<h2 class="brand">😈 Cuba Black 😈</h2>
+
+<div class="card no-stock"><p>🫐 Blueberry Mega Can ❌</p></div>
+<div class="card no-stock"><p>🍬 Bubblegum Slim ❌</p></div>
+<div class="card no-stock"><p>🍓 Forest Berries ❌</p></div>
+
+<div class="card">
+<p>🫐 Blackcurrant ×2</p>
+<button class="buy-btn">Купить</button>
+</div>
+
+<div class="card no-stock"><p>❄️ Cold Dry ❌</p></div>
+
+<div class="card">
+<p>🍑 Peach ×1</p>
+<button class="buy-btn">Купить</button>
+</div>
+
+<div class="card">
+<p>🍏 Apple Juice ×1</p>
+<button class="buy-btn">Купить</button>
+</div>
+
+<div class="card">
+<p>🥤 Cola ×1</p>
+<button class="buy-btn">Купить</button>
+</div>
+
+<div class="card">
+<p>🍌 Banana Hit ×1</p>
+<button class="buy-btn">Купить</button>
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Контакты</h2>
+<p>Менеджер — все вопросы к менеджеру</p>
+
+<a href="https://t.me/shock_mun?text=Добрый%20день%20я%20бы%20хотел%20купить%20снюс" class="contact-btn">
+Написать менеджеру
+</a>
+
+</section>
+
+<footer>
+<p>© TOP VKND 2026</p>
+</footer>
+
+</body>
+</html>

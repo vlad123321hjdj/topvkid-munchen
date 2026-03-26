@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0a0a0a;
+    color:white;
+    font-family:Arial;
+}
+
+/* HEADER */
+header{
+    background:black;
+    text-align:center;
+    padding:20px;
+    box-shadow:0 0 20px red;
+}
+
+.logo{
+    color:red;
+    font-size:45px;
+    text-shadow:0 0 20px red;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:red;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+    padding:80px;
+    background:linear-gradient(black, red);
+}
+
+.hero h2{
+    font-size:40px;
+}
+
+.top{
+    background:red;
+    color:black;
+    text-align:center;
+    padding:10px;
+    font-weight:bold;
+}
+
+/* PRODUCTS */
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:40px;
+}
+
+.brand{
+    width:100%;
+    text-align:center;
+    color:red;
+    font-size:30px;
+    margin-top:20px;
+}
+
+/* CARD */
+.card{
+    width:260px;
+    background:#111;
+    padding:20px;
+    border-radius:15px;
+    border:1px solid red;
+    text-align:center;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px red;
+}
+
+.no-stock{
+    color:gray;
+}
+
+/* BUTTON */
+.buy-btn{
+    margin-top:15px;
+    padding:14px 30px;
+    border-radius:40px;
+    border:2px solid red;
+    background:linear-gradient(45deg, black, #111);
+    color:red;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.4s;
+    box-shadow:0 0 10px red;
+}
+
+.buy-btn:hover{
+    background:red;
+    color:black;
+    box-shadow:0 0 20px red,0 0 40px red;
+    transform:scale(1.1);
+}
+
+.big{
+    margin-top:30px;
+    font-size:20px;
+}
+
+/* CONTACT */
+.contact{
+    text-align:center;
+    padding:60px;
+    background:black;
+}
+
+.contact-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 35px;
+    background:linear-gradient(45deg, red, black);
+    color:white;
+    border-radius:30px;
+    text-decoration:none;
+    font-size:18px;
+    box-shadow:0 0 20px red;
+}
+
+.contact-btn:hover{
+    background:black;
+    color:red;
+}
+
+/* FOOTER */
+footer{
+    background:black;
+    text-align:center;
+    padding:20px;
+}
